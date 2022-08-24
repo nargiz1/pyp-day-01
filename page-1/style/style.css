@@ -16,6 +16,7 @@ section {
 }
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 .col-4 {
   width: 33.33%;
