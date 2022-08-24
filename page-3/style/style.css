@@ -23,19 +23,23 @@ body {
 header {
   border-bottom: 2px solid rgb(199, 197, 197);
   margin-bottom: 6%;
-  padding: 0 25.1%;
+  padding: 0 26.3%;
 }
 header nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 3% 2.5%;
+  padding: 3% 0%;
 }
 header nav ul li a {
   text-decoration: none;
   color: black;
   font-weight: bolder;
   font-size: 15px;
+}
+.main .sidebar{
+    position: absolute;
+    width: 20%;
 }
 .main ul {
     padding-top: 12%;
@@ -50,7 +54,7 @@ header nav ul li a {
     
 }
 .shoes{
-    padding: 0 10%;
+    padding: 0 10% 0 25%;
 }
 .shoes img{
     width: 100%;
